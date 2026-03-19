@@ -181,6 +181,9 @@ export default function Navbar() {
           
           <div className="mt-auto pt-12 pb-8 px-2 flex-grow flex flex-col justify-end">
             <div className="flex flex-col gap-5 mb-8">
+              <Link to="/login" onClick={closeMenu} className="w-full bg-slate-900 dark:bg-white text-white dark:text-slate-900 py-4 flex justify-center items-center gap-2 rounded-full font-bold uppercase tracking-widest text-sm mb-4 hover:bg-slate-800 transition-colors shadow-md">
+                <User className="w-4 h-4" /> Sign In / Register
+              </Link>
               <Link to="/size-guide" onClick={closeMenu} className="text-sm font-medium uppercase tracking-widest text-slate-500 hover:text-accent-gold transition-colors">Size Guide</Link>
               <Link to="/shipping-returns" onClick={closeMenu} className="text-sm font-medium uppercase tracking-widest text-slate-500 hover:text-accent-gold transition-colors">Shipping & Returns</Link>
               <Link to="/faq" onClick={closeMenu} className="text-sm font-medium uppercase tracking-widest text-slate-500 hover:text-accent-gold transition-colors">FAQ</Link>
