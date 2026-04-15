@@ -113,11 +113,11 @@ export default function Home() {
       <section className="py-24 px-6 overflow-hidden relative">
         <div className="orb orb-gold w-96 h-96 -bottom-20 left-1/4 opacity-10" />
         
-        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-16">
-          <div className="lg:w-1/2 relative animate-on-scroll">
+        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-10 lg:gap-16">
+          <div className="w-full lg:w-1/2 relative animate-on-scroll">
             <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl shadow-primary/10 group">
               <div 
-                className="h-[600px] bg-cover bg-center transition-transform duration-700 group-hover:scale-105" 
+                className="h-[400px] lg:h-[600px] bg-cover bg-center transition-transform duration-700 group-hover:scale-105" 
                 style={{ backgroundImage: `url('/img/lingerie_closet.png')` }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
@@ -125,8 +125,8 @@ export default function Home() {
             <div className="absolute -bottom-8 -right-8 w-64 h-64 bg-primary/20 rounded-full blur-3xl -z-10 animate-float" />
             <div className="absolute -top-8 -left-8 w-48 h-48 bg-accent-gold/15 rounded-full blur-2xl -z-10 animate-float" style={{ animationDelay: '2s' }} />
           </div>
-          <div className="lg:w-1/2 space-y-8 animate-on-scroll stagger-2">
-            <span className="text-accent-gold font-bold tracking-[0.3em] uppercase text-sm">Since 2025</span>
+          <div className="w-full lg:w-1/2 space-y-6 lg:space-y-8 animate-on-scroll stagger-2">
+            <span className="text-accent-gold font-bold tracking-[0.3em] uppercase text-sm mt-4 lg:mt-0 block">Since 2025</span>
             <h2 className="text-4xl md:text-5xl font-serif leading-tight text-slate-900 dark:text-white">
               The Art of <br/><span className="italic gradient-text bg-gradient-to-r from-primary to-accent-gold">Intimate Luxury</span>
             </h2>
