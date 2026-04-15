@@ -62,23 +62,4 @@ export const products: Product[] = [
     description: "Wrapped in a heritage of unquestionable elegance. The Obsidian Black variant is an instant classic in the Silk Spell line. Available in sizes XS, S, and M.",
     isBestseller: true
   },
-  {
-    id: "p7",
-    name: "The Silkura Chiffon Teddy",
-    price: 20000,
-    category: "Silk Lingerie",
-    image: "/img/p7_chiffon_teddy_1773920516280.png",
-    colors: ["Classic Black"],
-    description: "A breathtaking one-piece bodysuit masterfully detailed with sheer chiffon paneling, structured silk waists, and a daring open back."
-  },
-  {
-    id: "p8",
-    name: "Silkura Onyx Bustier",
-    price: 20000,
-    category: "Silk Lingerie",
-    image: "/img/p8_onyx_bustier_1773920533936.png",
-    colors: ["Onyx Black", "Ivory White"],
-    description: "Constructed with flexible boning and rich silk panels, the Onyx Bustier cinches the waist while supporting the bust for a dramatic, classic hourglass."
-  },
-
 ];

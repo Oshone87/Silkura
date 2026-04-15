@@ -118,7 +118,7 @@ export default function Home() {
             <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl shadow-primary/10 group">
               <div 
                 className="h-[600px] bg-cover bg-center transition-transform duration-700 group-hover:scale-105" 
-                style={{ backgroundImage: `url('${products[3].image}')` }}
+                style={{ backgroundImage: `url('/img/lingerie_closet.png')` }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
             </div>
