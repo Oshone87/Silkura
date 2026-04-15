@@ -15,18 +15,18 @@ export default function Button({
   ...props 
 }: ButtonProps) {
   
-  const baseClasses = "rounded-full font-bold transition-all flex items-center justify-center transform hover:scale-105 shadow-sm";
+  const baseClasses = "rounded-full font-bold transition-all duration-300 flex items-center justify-center transform hover:scale-105 relative overflow-hidden";
   
   const variants = {
-    primary: "bg-primary hover:bg-white text-slate-900 border border-transparent shadow-lg",
-    outline: "bg-transparent border border-slate-900 text-slate-900 hover:bg-slate-900 hover:text-white dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-slate-900",
-    ghost: "bg-transparent text-slate-900 hover:bg-primary/20 dark:text-white dark:hover:bg-slate-800"
+    primary: "gradient-primary text-white shadow-lg hover:shadow-xl hover:shadow-primary/30 active:scale-[0.98]",
+    outline: "bg-transparent border-2 border-primary text-slate-900 hover:bg-primary hover:text-white dark:border-primary-light dark:text-white dark:hover:bg-primary dark:hover:text-white",
+    ghost: "bg-transparent text-slate-900 hover:bg-primary/15 dark:text-white dark:hover:bg-primary/20"
   };
 
   const sizes = {
-    sm: "px-6 py-2 text-sm",
-    md: "px-8 py-3",
-    lg: "px-10 py-4 text-lg"
+    sm: "px-6 py-2.5 text-sm tracking-wide",
+    md: "px-8 py-3.5 tracking-wide",
+    lg: "px-10 py-4 text-lg tracking-wide"
   };
 
   const widthClass = fullWidth ? "w-full" : "";
