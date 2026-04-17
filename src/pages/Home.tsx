@@ -54,8 +54,8 @@ export default function Home() {
       {/* Featured Collections Grid */}
       <section className="py-24 px-6 max-w-7xl mx-auto">
         <div className="text-center mb-16 animate-on-scroll">
-          <span className="text-accent-gold font-medium tracking-[0.3em] uppercase text-sm mb-3 block">Discover</span>
-          <h2 className="text-3xl md:text-5xl font-serif mb-5 text-slate-900 dark:text-white">Curated Collections</h2>
+          <span className="text-accent-gold font-medium tracking-[0.3em] uppercase text-sm mb-3 block">Explore</span>
+          <h2 className="text-3xl md:text-5xl font-serif mb-5 text-slate-900 dark:text-white">The <span className="italic gradient-text bg-gradient-to-r from-primary to-accent-gold">Silk Spell</span> Collection</h2>
           <div className="w-24 h-0.5 gradient-primary mx-auto rounded-full" />
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
