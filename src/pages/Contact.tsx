@@ -2,7 +2,7 @@ import { Mail, Phone, MessageCircle } from 'lucide-react';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 const WHATSAPP_NUMBER = '2348148469497';
-const WHATSAPP_MESSAGE = encodeURIComponent('Hello Silkura! 💗 I'd love to learn more about your Silk Spell collection.');
+const WHATSAPP_MESSAGE = encodeURIComponent("Hello Silkura! 💗 I'd love to learn more about your Silk Spell collection.");
 
 export default function Contact() {
   const scrollRef = useScrollAnimation();
